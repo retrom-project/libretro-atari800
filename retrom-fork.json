@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "forkRepository": "https://github.com/retrom-project/libretro-atari800",
+  "defaultBranch": "retrom/g4e7fbc73765c",
+  "upstreamMirrorBranch": "master",
+  "upstreams": [
+    {
+      "role": "core",
+      "repository": "https://github.com/libretro/libretro-atari800",
+      "refType": "COMMIT",
+      "ref": "4e7fbc73765c1a9670c7506616046ad1d4ccda51",
+      "commit": "4e7fbc73765c1a9670c7506616046ad1d4ccda51"
+    }
+  ],
+  "adapterAbi": "emulatorjs-state-v1",
+  "releaseAssets": [
+    "atari800-wasm.data",
+    "LICENSE",
+    "source.tar.gz",
+    "rpg-runtime-release.json"
+  ]
+}

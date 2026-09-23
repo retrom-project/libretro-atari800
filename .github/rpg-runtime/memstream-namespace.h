@@ -1,0 +1,18 @@
+#ifndef RETROM_ATARI800_MEMSTREAM_NAMESPACE_H
+#define RETROM_ATARI800_MEMSTREAM_NAMESPACE_H
+
+/* RetroArch and the core bundle different libretro-common memory streams. */
+#define memstream_open atari800_memstream_open
+#define memstream_close atari800_memstream_close
+#define memstream_get_ptr atari800_memstream_get_ptr
+#define memstream_get_size atari800_memstream_get_size
+#define memstream_read atari800_memstream_read
+#define memstream_write atari800_memstream_write
+#define memstream_seek atari800_memstream_seek
+#define memstream_rewind atari800_memstream_rewind
+#define memstream_pos atari800_memstream_pos
+#define memstream_getc atari800_memstream_getc
+#define memstream_gets atari800_memstream_gets
+#define memstream_putc atari800_memstream_putc
+
+#endif
